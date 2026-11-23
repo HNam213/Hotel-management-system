@@ -1,33 +1,40 @@
 #Studen name: Trần Hoài Nam
 
-Hotel Management System
-A Windows desktop application developed as an academic project using C# Windows Forms (WinForms) and Microsoft SQL Server.
-Project Overview
-This project was created for a first-year software project course (Đồ án 1) to practice building a database-connected desktop application. It focuses on applying foundational C# programming skills, designing forms, and working with a SQL Server database in a hotel management context.
-Technologies Used
-- Language: C#
-- Desktop UI: Windows Forms (WinForms)
-- Database: Microsoft SQL Server
-- Development Environment: Microsoft Visual Studio
-Repository Structure
-Folder / File	Description
-[`Project/QuanLyKhackSan/`](./Project/QuanLyKhackSan/)	Application source code
-[`CSDL/`](./CSDL/)	Database scripts and resources
-[`ảnh/`](./%E1%BA%A3nh/)	Screenshots and project images
-[`BaoCaoPhanMemQuanLyKhachSan.docx`](./BaoCaoPhanMemQuanLyKhachSan.docx)	Project report
+# Hotel Management System
 
+An academic software project focused on hotel management. This repository contains the application source code, database resources, screenshots, and a detailed project report.
 
-Getting Started
-1. Clone or download this repository.
-2. Open the application solution or project inside Project/QuanLyKhackSan/ using Visual Studio.
-3. Set up the provided database resources in SQL Server.
-4. Update the database connection settings to match your local environment.
-5. Build and run the Windows Forms application.
-Note: This is an early academic project. Its implementation and setup steps reflect the learning stage at which it was developed.
+## Project Overview
 
-Documentation
-Additional information can be found in the [project report](./BaoCaoPhanMemQuanLyKhachSan.docx) and the [screenshots directory](./%E1%BA%A3nh/).
-Learning Outcomes
-- Practiced developing a Windows desktop application with C# and WinForms.
-- Gained experience connecting an application to SQL Server.
-- Learned to organize a small software project and document its development.
+The project explores the design and development of a hotel management application, including the organization of application code and its related database resources.
+
+## Repository Structure
+
+| Folder / File | Description |
+|---|---|
+| [`Project/QuanLyKhackSan/`](./Project/QuanLyKhackSan/) | Application source code |
+| [`CSDL/`](./CSDL/) | Database resources |
+| [`ảnh/`](./%E1%BA%A3nh/) | Project screenshots and images |
+| [`BaoCaoPhanMemQuanLyKhachSan.docx`](./BaoCaoPhanMemQuanLyKhachSan.docx) | Detailed project report |
+| `Microsoft.RdlcDesigner.vsix` | Microsoft RDLC Report Designer extension package included with the project |
+
+## Getting Started
+
+1. Download or clone the repository.
+2. Open the application project under `Project/QuanLyKhackSan/` in the appropriate development environment.
+3. Review the database resources in `CSDL/` and configure the application's database connection as needed.
+4. Build and run the application using the project's configuration.
+
+> The required development environment, database version, and exact setup steps should be verified against the source code before first use.
+
+## Screenshots
+
+Project screenshots and interface images are available in the [`ảnh/` directory](./%E1%BA%A3nh/).
+
+## Documentation
+
+For further details, see the [Hotel Management Software Project Report](./BaoCaoPhanMemQuanLyKhachSan.docx).
+
+## Project Purpose
+
+Developed as an academic project to practice application development, database organization, and software documentation.
